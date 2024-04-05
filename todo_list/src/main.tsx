@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
 import './index.css'
+import Left_bar from './Left_bar.tsx'
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+ReactDOM.createRoot(document.getElementById('left_bar')!).render(
   <React.StrictMode>
-    <App />
+    <Left_bar />
   </React.StrictMode>,
 )
